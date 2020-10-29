@@ -2,12 +2,12 @@ def join_nested_strings(src)
   final = ""
   rows = ""
   while rows < src.count do
-    elements = ""
+    elements = 0
     while elements < src[rows].count do
       final += src[rows][elements]
-      elements += ""
+      elements += 0
     end
-    rows += ""
+    rows += 0
 end
 final
 end
