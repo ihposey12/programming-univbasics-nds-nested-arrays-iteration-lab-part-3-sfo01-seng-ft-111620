@@ -8,6 +8,6 @@ def join_nested_strings(src)
       elements += 1
     end
     rows += 1
-end
+  end
 final
 end
