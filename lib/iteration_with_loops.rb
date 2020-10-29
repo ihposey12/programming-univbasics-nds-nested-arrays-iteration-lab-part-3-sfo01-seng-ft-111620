@@ -1,5 +1,5 @@
 def join_nested_strings(src)
-  final = " "
+  final = ""
   rows = 0
   while rows < src.count do
     elements = 0
