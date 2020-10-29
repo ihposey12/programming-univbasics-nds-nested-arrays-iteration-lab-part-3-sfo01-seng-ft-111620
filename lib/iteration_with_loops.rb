@@ -5,9 +5,9 @@ def join_nested_strings(src)
     elements = 0
     while elements < src[rows].count do
       final += src[rows][elements]
-      elements += 0
+      elements += 1
     end
-    rows += 0
+    rows += 1
 end
 final
 end
